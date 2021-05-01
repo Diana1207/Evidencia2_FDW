@@ -1,4 +1,13 @@
-  
+body.peliculas{
+    background-color: rgb(80, 78, 78);
+}
+
+h1.peliculas{
+    text-align: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    background: brown;
+}
+
 aside {
     width: 30%;
     padding-left: 15px;
