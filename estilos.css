@@ -4,9 +4,36 @@ body.peliculas{
 
 h1.peliculas{
     text-align: center; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, sans-serif; 
     background: brown;
 }
+
+body.peliculas p{
+    background-color: brown;
+}
+
+body.peliculas h2{
+    text-align: center; 
+    display: block; 
+    margin: auto; 
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+img.peliculas{
+    display: block; margin: auto; width: 200px;
+}
+
+#descripcion {
+    text-align: center; font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 13px; color: white;
+}
+
+ul{
+    font-family: Verdana, Tahoma, sans-serif; 
+    list-style-type:circle;
+    background-color: rgb(190, 210, 228);
+}
+
 
 aside {
     width: 30%;
