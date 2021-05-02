@@ -34,6 +34,19 @@ ul{
     background-color: rgb(190, 210, 228);
 }
 
+body.personajes {
+    background-color: rgb(104, 110, 110);
+}
+
+h1.personajes{
+    text-align: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:black; 
+    background: rgb(182, 23, 23);
+}
+
+h3, h4.personajes{
+    text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 aside {
     width: 30%;
@@ -53,11 +66,28 @@ h2{
     color: white;
 }
 
-.slider {
+div.slider {
     width: 800px;
     margin: auto;
     overflow: hidden;
+    border: 15px solid black;
+    height: 420px;
 }
+
+h2.personajes{
+    background-color: aliceblue; color: black; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+}
+
+span.personajes{
+     color: red;
+}
+
+p.personajes{
+    color: azure; text-align: justify;
+}
+   
 
 .slider ul{
     display: flex;
