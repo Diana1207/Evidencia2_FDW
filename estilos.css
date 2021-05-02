@@ -1,28 +1,23 @@
 body.peliculas{
     background-color: rgb(80, 78, 78);
 }
-
 h1.peliculas{
     text-align: center; 
     font-family: Impact, sans-serif; 
     background: brown;
 }
-
 body.peliculas p{
     background-color: brown;
 }
-
 body.peliculas h2{
     text-align: center; 
     display: block; 
     margin: auto; 
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-
 img.peliculas{
     display: block; margin: auto; width: 200px;
 }
-
 #descripcion {
     text-align: center; font-family: Verdana, Tahoma, sans-serif; 
     font-size: 13px; color: white;
@@ -88,33 +83,70 @@ p.personajes{
     color: azure; text-align: justify;
 }
    
-/* #menuprincipalindex {
+#menu-principal {
     padding-left: 0;
     list-style: none;
     display: flex;
-    background-color: rgb(131, 74, 74);
+    background-color: rgb(192, 127, 127);
 
     justify-content: space-evenly;
     align-items:flex-start;
     align-content:center ;
 
-    height: 50px;
+    height: 30px;
 
 }
 
-#menuprincipalindex a{
+#menu-principal a{
     color: black;
     font-weight: bold;
     text-decoration: none;
-} */
+}
 
-.slider ul{
+/* Elementos flexibles */
+#menu-principal li:hover{
+    background-color: #af2828;
+
+}
+
+#menu-principal li{
+    flex-grow: 1;
+    padding: 0.5em 0;
+}
+
+/* Layout del sitio web */
+body{
+    display: grid;
+    grid-template-columns: 5fr 2fr ;
+    grid-template-areas: "header header" 
+                         "main main" 
+                         "footer sidebar";
+}
+
+main{
+    grid-area: main;
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    background-color: rgba(173, 36, 36, 0.363);
+    grid-area: footer;
+}
+
+aside{
+    background-color: rgba(100, 9, 9, 0.322);
+    grid-area: sidebar;
+}
+/* .slider ul{
     display: flex;
     padding: 0;
     width: 800px;
     animation: tiempo 10s infinite;
     animation-direction:normal;
-}
+} */
 
 .slider li{
     width: 800px;
