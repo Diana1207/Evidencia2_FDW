@@ -88,6 +88,25 @@ p.personajes{
     color: azure; text-align: justify;
 }
    
+/* #menuprincipalindex {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    background-color: rgb(131, 74, 74);
+
+    justify-content: space-evenly;
+    align-items:flex-start;
+    align-content:center ;
+
+    height: 50px;
+
+}
+
+#menuprincipalindex a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+} */
 
 .slider ul{
     display: flex;
