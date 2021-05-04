@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="Es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,28 @@
     <meta name="keywords" content="Marvel, MarvelStudios, StanLee, IronMan, WandaMaximoff">
     <meta name="author" content="Diana Edith Ayala Núñez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="recursos/Icono.png"/>
+    <title>Suscríbete</title>
 </head>
-<body style="background-color: brown;" >
-    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" >Suscribete para recibir noticias sobre Marvel</h1>
-    <h4 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Llena esta formulario para recibir noticias y más contenido sobre Marvel Studios</h4> 
-
+<body class="contenidopers">
+    <div class="menupersonajes">
+        <div class="inicio"> <!-- img -->
+            <img src="recursos/Marvel Intro.gif" alt="MarvelLogo">
+        </div>
+    <nav> <br><br>
+        <ol class="enlaces">
+             <li><a href="Diana1207_index.html">Página principal</a></li>
+             <li><a href="Diana1207_Personajes.html">Personajes &#129333;&#127995;</a></li>
+             <li><a href="Diana1207_Peliculas.html">Peliculas &#127916;</a></li>
+             <li><a href="Diana1207_ProximosEstrenos.html">Próximos Estrenos &#128249;</a></li>
+            <br>
+        </ol>
+        </nav>
     <br><br>
-    <div style="color: white;" >
+    <div class="descripcion">
+        <h1>Suscribete para recibir noticias sobre Marvel</h1>
+        <h4>Llena este formulario para recibir noticias y más contenido sobre Marvel Studios</h4>     
         <label for="">Nombre(s): </label>
         <input type="text">
         <label for="">Apellido Paterno: </label>
@@ -29,33 +43,18 @@
             <option value="5">Noticias</option>
             <option value="8">Cómics</option>
         </select> <br> <br>
-
         <label for="genero">Selecciona el género: </label> <br><br>
         <label for="masculino">masculino</label>
         <input type="radio" name="genero" id="masculino">
         <label for="femenino">femenino</label>
         <input type="radio" name="genero" id="femenino"> <br> <br>
         <label for="fechuki">fecha de nacimiento: </label>
-        <input type="date" name="fecha" id="fechanacimiento">
+        <input type="date" name="fecha" id="fechanacimiento">  
+        <p><button>enviar</button> </p> 
+        <h4>Gracias! y no lo olvides...</h4>
+        <h5>Un gran poder conlleva una gran responsabilidad</h5>
+        <p> <cite>Cómic: Spider Man</cite> Stan Lee, 1985.</p>
     </div>
-
-   <p> 
-       <button>enviar</button>
-   </p>
- <br><br><br>
-   <h4 style="color: white;">Gracias! y no lo olvides...</h4>
-   <h5 style="color: white;">Un gran poder conlleva una gran responsabilidad</h5>
-   <p> <cite>Cómic: Spider Man</cite> Stan Lee, 1985.</p> 
-
-   <nav> <br><br>
-    <ol style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-         <li><a href="Diana1207_index.html">Página principal</a></li>
-         <li><a href="Diana1207_Personajes.html">Personajes &#129333;&#127995;</a></li>
-         <li><a href="Diana1207_Peliculas.html">Peliculas &#127916;</a></li>
-         <li><a href="Diana1207_ProximosEstrenos.html">Próximos Estrenos &#128249;</a></li>
-        <br>
-    </ol>
-    </nav>
-
+    <br>
 </body>
 </html>
